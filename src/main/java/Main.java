@@ -7,5 +7,6 @@ public class Main {
         String hobby =info.inputHobby();
         OutputInfo output = new OutputInfo();
         output.outPutTableMethod(name,city,age,hobby);
+        output.outPutTextMethod(name,city,age,hobby);
     }
 }
