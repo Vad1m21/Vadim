@@ -1,5 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("ss");
+        information info = new information();
+        String name = info.inputName();
+        String city = info.inputCity();
+        int age = info.inputAge();
+        String hobby =info.inputHobby();
+        OutputInfo output = new OutputInfo();
+        output.outPutTableMethod(name,city,age,hobby);
     }
 }
